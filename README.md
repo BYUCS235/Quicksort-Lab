@@ -12,22 +12,23 @@ Quicksort is a sorting algorithm developed by Tony Hoare that, on average, makes
 ## Requirements
 You will need the files from this git repository to complete the lab.
 
-### File 1 - Array Tests (20 points)
-* This deals with testing operations such as creating and adding to an array. 
+You will implement the functions found in `QSInterface.h`. Your `QS` class must inherit from `QSInterface.h`.
 
-### File 2 - Median of Three (20 points)
-* It will test your implementation of the median of three function.
+### Median of Three
 
-### File 3 - Partition (20 points)
-* It will test your implementation of the partition function.
+Sort the first, middle, and last values of the provided partition. Return the position of the middle value.
 
-### File 4 - Comprehensive Tests & Edge Cases (15 points)
-* It will test whether or not your medianOfThree() and partition() functions work on cases that commonly cause problems.
+### Partition
 
-### File 5 - Sort All (25 points)
-* It will test whether or not you are able to create your own recursive function using the medianOfThree() and partition() functions you already coded for the previous tests.
+Given an array, the first position, last position, and the pivot position, partition the data.
+
+### Sort
+
+Use your `medianOfThree` and `partition` functions to recursively sort a vector. 
 
 ## Requirement Notes
-* No predefined data structures may be used for this lab; you must use an array.
-* You are required to write a separate '.h' and '.cpp' for every class you implement.
+* You cannot `#include <algorithm>` - you should implement the quicksort algorithm youself.
 
+## Testing
+
+You can compile and run the tests to generate the output files. Compare the output files to the provided key files to know if your solution is correct.
