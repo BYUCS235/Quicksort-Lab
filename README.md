@@ -32,3 +32,5 @@ Use your `medianOfThree` and `partition` functions to recursively sort a vector.
 ## Testing
 
 You can compile and run the tests to generate the output files. Compare the output files to the provided key files to know if your solution is correct.
+
+`scratch.cpp` is provided as a convenience for you. Use it to write your own test cases.
