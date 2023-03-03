@@ -20,7 +20,11 @@ Sort the first, middle, and last values of the provided partition. Return the po
 
 ### Partition
 
-Given an array, the first position, last position, and the pivot position, partition the data.
+Given an array, the first position, last position, and the pivot position, partition the data. 
+By the end of the partition function, all values smaller than the pivot should be on the left of the pivot value,
+and all values larger than the pivot should be on the right of the pivot value.
+
+You should follow the partitioning algorithm discussed in class (or in the material on Canvas).
 
 ### Sort
 
